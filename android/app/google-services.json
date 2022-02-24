@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "40163601188",
+    "project_id": "electrifyfacility",
+    "storage_bucket": "electrifyfacility.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40163601188:android:1eee4c500df5cc83c5a1b1",
+        "android_client_info": {
+          "package_name": "com.example.electrify_facility"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40163601188-4b4tme01tvhe4rit9f7nc9iikhj29668.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.electrify_facility",
+            "certificate_hash": "924df8f48608f199962b90205ba2b15a9aa3d481"
+          }
+        },
+        {
+          "client_id": "40163601188-ljt52ssve5i4923ic5sfen8k5ugkmbgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbqHFNDofmuQ04SrnT2Sgfnn_jzCUyRJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40163601188-ljt52ssve5i4923ic5sfen8k5ugkmbgb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
