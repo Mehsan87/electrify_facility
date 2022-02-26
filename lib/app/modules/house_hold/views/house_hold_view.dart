@@ -15,9 +15,6 @@ class HouseHoldView extends GetView<HouseHoldController> {
         ),
         body: Column(
           children: <Widget>[
-            Text(controller.address),
-            Text(controller.latitude),
-            Text(controller.longitude)
           ],
         ),
       );
