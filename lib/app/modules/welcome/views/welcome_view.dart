@@ -7,6 +7,8 @@ import 'package:get/get.dart';
 import '../controllers/welcome_controller.dart';
 
 class WelcomeView extends GetView<WelcomeController> {
+
+
   @override
   Widget build(BuildContext context) {
     return GetBuilder<WelcomeController>(builder: (controller){
@@ -15,6 +17,15 @@ class WelcomeView extends GetView<WelcomeController> {
           title: Text('Electrify'),
           backgroundColor: Colors.green,
           centerTitle: true,
+          leading: Builder(
+               builder: (BuildContext context) {
+                 return IconButton(
+                   icon: const Icon(Icons.menu),
+                   onPressed: () { Scaffold.of(context).openDrawer(); },
+                   tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
+                 );
+               },
+             ),
           actions: [
             IconButton(
               onPressed: () {
